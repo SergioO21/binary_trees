@@ -110,8 +110,8 @@ size_t binary_tree_leaves(const binary_tree_t *tree)
 
 int _pow(int x, int y)
 {
-    if (y == 0)
-        return (1);
+	if (y == 0)
+		return (1);
 
-    return (_pow(x, y - 1) * x);
+	return (_pow(x, y - 1) * x);
 }
